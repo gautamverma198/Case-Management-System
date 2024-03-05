@@ -1,0 +1,134 @@
+.middle::before{
+    content: "";
+    background:url("../Images/car2.jpeg") no-repeat center center/cover;
+    position: absolute;
+    top:54px;
+    left:0px;
+    margin-bottom: 100px;
+    height: 450px;
+    width:100%;
+    z-index: -1;
+    opacity: 0.92;
+
+}
+.middle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.middle h1{
+    color: white;
+    font-size: 60px;
+    font-family: 'Red Hat Display';
+    margin-top: 80px;
+    opacity: 0.9;
+}
+
+
+.middle h2{
+    color: white;
+    font-size: 50px;
+    font-family: 'Red Hat Display';
+    margin-top: 5px;
+    opacity: 0.9;
+}
+
+
+.btn-middle
+{
+    justify-content: center;
+    display: flex;
+}
+
+.middle div{
+    color: white;
+    font-size: 25px;
+    font-family: 'Red Hat Dsiplay';
+}
+.middle input{
+    display: block;
+    height: 70px;
+    margin: 30px;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    font-size: 20px;
+    color: white;
+    border: 2px solid white
+}
+.utilities {
+    font-family: AudiType-ExtendedNormal,Helvetica,Arial,sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px;
+}
+.utilities .h1{
+    font-size: 45px;
+    text-align: center;
+    justify-content: center;
+}
+.para1{
+    font-size: 20px;
+    margin-top: 40px;
+}
+.para2{
+    margin-left: 290px;
+    font-size: 20px;
+}
+.para3{
+    margin-left: 290px;
+    font-size: 20px;;
+}
+.para4{
+    margin-left: 290px;
+    font-size: 20px;
+}
+.future{
+    display: flex;
+    margin-bottom: 130px;
+}
+.future img{
+    height: 425px;
+    width: 740px;
+    margin-left: 40px;
+    
+}
+.concept .head{
+    font-size: 30px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.line1{
+    font-size: 22px;
+    margin-top: 45px;
+    margin-left: 30px;
+}
+.line2{
+    font-size: 22px;
+    margin-left: 30px;
+}
+.line3{
+    font-size: 22px;
+    margin-left: 30px;
+}
+.line4{
+    font-size: 22px;
+    margin-left: 30px;
+}
+.concept input{
+    margin-top:29px ;
+    margin-left:30px ;
+    font-size:18px ;
+    width: 257px;
+    height: 56px;
+    background: transparent;
+    cursor: pointer;
+}
+.concept input:hover{
+    color: rgb(48, 46, 46);
+}
+
+

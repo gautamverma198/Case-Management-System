@@ -1,0 +1,229 @@
+.back {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+  
+    padding: 20px;
+  }
+  
+  .backcar {
+    padding: 20px;
+    flex: 1; 
+  }
+  
+  .backimg {
+    flex: 1; 
+    padding: 20px;
+  }
+  
+  .backimg img {
+    max-width: 100%; 
+    height: auto;
+  }
+  
+  .backcar .backhead {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  .backcar .turn1 {
+    line-height: 1.6; 
+  }
+  
+  .backcar input[type="button"] {
+    background-color: transparent;
+    color: #fff; 
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border: 2px solid white;
+  }
+
+.back::before{
+    background: url("../Images/back.jpeg") no-repeat center center/cover;
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.92;
+    top: 0p;
+    left: 0px;
+}
+.turn1{
+
+    color: rgb(245, 236, 236);
+    font-size: 20px;
+}
+
+
+
+
+/* HOME DOWN */
+
+.container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.homeColumn {
+    width: 30%;
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    position: relative;
+    height: 300px;
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    color: #666;
+    line-height: 1.6;
+}
+
+.homeColumn .button {
+    background-color: transparent;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border: 2px solid black;
+    position: absolute;
+    bottom: 0;
+
+} 
+
+.homeDownDiv {
+    display: flex; 
+    flex-direction: column;
+    padding: 20px;
+    margin-bottom: 120px;
+  }
+  
+  .utilities,
+  .future {
+    flex: 1;
+  }
+  
+  .utilities {
+    text-align: center;
+    margin: 0px;
+  }
+  
+  .utilities .h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .utilities .para1 {
+    line-height: 1.6;
+  }
+  
+  .future {
+    display: flex;
+    align-items: center;
+  }
+  
+  .futurecar img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .concept {
+    flex: 1;
+    padding: 0 20px;
+    order: 1;
+  }
+  
+  .concept .head {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .concept .line1 {
+    line-height: 1.6;
+  }
+  
+  .concept .line4 {
+    margin-top: 10px;
+    font-style: italic;
+    color: #888;
+  }
+  
+  .concept input[type="button"] {
+    background-color: transparent;
+    color: black; 
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border: 2px solid black;
+  }
+
+
+@media (max-width: 1000px) {
+    .container {
+      flex-direction: column; 
+      align-items: center; 
+    }
+    .homeColumn {
+        width: 100%;
+        flex: 1;
+        background-color: #fff;
+        padding: 20px;
+        margin: 10px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    }
+    .back{
+        flex-direction: column;
+    }
+    .backhead{
+        margin:auto
+    }
+    .backimg img {
+        max-width: 80%;
+        height: auto;
+      }
+    .future{
+        flex-direction: column;
+    }
+    .homeColumn{
+        width: 600px;
+    }
+    .backimg img {
+      display: none;
+    }
+    .back::before{
+  }
+}
+
+@media (max-width: 600px) {
+    .homeColumn{
+        width: 400px;
+    }
+}
+
+@media (max-width: 400px) {
+    .homeColumn{
+        width: 300px;
+    }
+}
+
+@media (max-width: 300px) {
+    .homeColumn{
+        width: 200px;
+    }
+}
